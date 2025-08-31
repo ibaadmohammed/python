@@ -1,0 +1,36 @@
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+def mod(x,y):
+    return x%y
+def pow(x,y):
+    return x**y
+print("Select an operator:")
+print("+")
+print("-")
+print("*")
+print("/")
+print("%")
+print("**")
+opr=input("Input an operator:")
+num1=int(input("Enter number1:"))
+num2=int(input("Enter number2:"))
+if opr=="+":
+    print("Sum of 2 numbers:",add(num1,num2))
+elif opr=="-":
+    print("Difference of 2 numbers:",sub(num1,num2))
+elif opr=="*":
+    print("Product of 2 numbers:",mul(num1,num2))
+elif opr=="/":
+    print("Quotient of 2 numbers:",div(num1,num2))
+elif opr=="%":
+    print("Modulo of 2 numbers:",mod(num1,num2))
+elif opr=="**":
+    print("Power of 2 numbers:",pow(num1,num2))
+else:
+    print("Invalid Operator!")
