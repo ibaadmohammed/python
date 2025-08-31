@@ -1,6 +1,6 @@
 class ATM:
   def __init__(self):
-    self.balance = 0
+    self.balance = 100000
 
   def check_balance(self):
     return self.balance
@@ -87,4 +87,5 @@ def main():
 
 
 if __name__ == '__main__':
+
   main()
